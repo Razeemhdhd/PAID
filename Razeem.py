@@ -648,10 +648,10 @@ def genkey_command(message):
     if len(cmd_parts) != 3:
         bot.send_message(chat_id, (
             "*Usage: /genkey <amount> <unit>*\n\n"
-            "Available units and prices:\n"
+            "Available units and resellprices:\n"
             "- hour/hours (20₹ per hour)\n"
             "- day/days (80₹ per day)\n"
-            "- week/weeks (400₹ per week)"
+            "- week/weeks (250₹ per week)"
         ), parse_mode='Markdown')
         return
     
