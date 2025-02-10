@@ -896,7 +896,7 @@ def my_account(message):
         if datetime.now() > datetime.fromisoformat(found_user['valid_until']):
             account_info = (
                 "𝐘𝐨𝐮𝐫 𝐤𝐞𝐲 𝐡𝐚𝐬 𝐞𝐱𝐩𝐢𝐫𝐞𝐝. 𝐏𝐥𝐞𝐚𝐬𝐞 𝐫𝐞𝐝𝐞𝐞𝐦 𝐚 𝐧𝐞𝐰 𝐤𝐞𝐲.\n"
-                "Contact ᚛ @TGRAZEEM ᚜ for assistance."
+                "Contact ᚛ RESELLER ᚜ for assistance."
             )
         else:
             account_info = (
