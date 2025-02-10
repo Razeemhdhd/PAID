@@ -23,9 +23,9 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 KEY_PRICES = {
-    'hour': 20,  # 50 Rs per hour
-    'day': 80,   # 150 Rs per day
-    'week': 250  # 600 Rs per week
+    'hour': 20,  # 20 Rs per hour
+    'day': 80,   # 80 Rs per day
+    'week': 250  # 250 Rs per week
 }
 ADMIN_IDS = [7702119573]
 BOT_TOKEN = "7780136598:AAFyh8ZpwzOoOBqS74aB16iUqhUtIdJgLro"
